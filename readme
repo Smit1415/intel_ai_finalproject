@@ -17,3 +17,24 @@ https://github.com/turhancan97/Intelligent-Face-Recognition-Attendance-System
 https://github.com/entbappy/Industry-Safety-Detection-using-Yolov7.git
 
 https://github.com/WongKinYiu/yolov7.git
+
+
+you have set all yhe file like this 
+face_recognition_yolov7/
+├── detect_faces.py              # Detection + recognition script
+├── best.pt                      # Trained YOLOv7 weights
+├── known_faces/                 # Folder of labeled reference images
+│   ├── alice.jpg
+│   └── bob.jpg
+├── images/                      # Input images for testing
+├── utils/
+│   └── face_utils.py            # Optional: helper functions for embeddings
+├── requirements.txt             # All dependencies
+├── app.py                       # (optional) Flask or Gradio app
+└── README.md
+
+
+
+then add your photos into the photos folder and change the name of photos and the script file list 
+update the role and run the script 
+
