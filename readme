@@ -37,4 +37,5 @@ face_recognition_yolov7/
 
 then add your photos into the photos folder and change the name of photos and the script file list 
 update the role and run the script 
+you will find best.pt file into code/yolov7/runs/train/exp8/weights/best.pt
 
